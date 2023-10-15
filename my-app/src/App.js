@@ -1,12 +1,11 @@
-
+import React from 'react';
 import './App.css';
+import ProductListing from './productListing.js'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        welcome
-      </header>
+     <ProductListing />
     </div>
   );
 }
